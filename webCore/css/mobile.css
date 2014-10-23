@@ -1,0 +1,41 @@
+.navbar {
+	position: relative;
+}
+.nav {
+	width: 100%;
+}
+.nav .menu {
+	display: none;
+}
+.menu {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 15px 0px;
+}
+.mobilemenubtn {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 40px;
+	cursor: pointer;
+}
+.mobilemenupanel {
+	position: relative;
+	display: none;
+	padding: 5px;
+	top: 0px;
+	left: 0px;
+	width: auto;
+	background-color: #eaeaea;
+}
+.menu {
+	color: #888888;
+}
+.document {
+	width: auto;
+	margin: 19px 3px 10px;
+}
+.document .doc_pcview {
+	display: none;
+}

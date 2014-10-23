@@ -1,0 +1,22 @@
+body {
+	background-color: #aa0029;
+	color: #ffffff;
+}
+.warn {
+	display: block;
+}
+.warn_forbidden-old-ie {
+	display: none;
+}
+.warn_width-limit {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.warn_width-limit img {
+	width: 72px;
+	height: 72px;
+}
+.container {
+	display: none;
+}

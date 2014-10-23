@@ -1,0 +1,24 @@
+.navbar {
+	position: fixed;
+}
+.nav {
+	width: 1000px;
+}
+.menu {
+	padding: 0px 10px;
+	color: #ffffff;
+}
+.mobilemenubtn {
+	display: none;
+}
+.mobilemenupanel {
+	display: none;
+}
+.document {
+	max-width: 990px;
+	padding: 0px 15px;
+	margin: 60px auto 10px;
+}
+.document .doc_mobileview {
+	display: none;
+}

@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Nanum Gothic';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/webCore/fonts/NanumGothic.eot');
+	src: url('/webCore/fonts/NanumGothic.woff') format('woff');
+}
