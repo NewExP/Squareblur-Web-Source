@@ -5,7 +5,7 @@
 	width: 1000px;
 }
 .menu {
-	padding: 0px 10px;
+	padding: 0px 12px;
 	color: #ffffff;
 }
 .mobilemenubtn {
@@ -15,9 +15,9 @@
 	display: none;
 }
 .document {
-	max-width: 990px;
-	padding: 0px 15px;
-	margin: 60px auto 10px;
+	width: 1000px;
+	padding: 5px;
+	margin: 60px auto 30px;
 }
 .document .doc_mobileview {
 	display: none;

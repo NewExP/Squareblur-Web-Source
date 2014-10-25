@@ -1,0 +1,108 @@
+body {
+}
+.document {
+	text-align: center;
+}
+.main_banner {
+	text-align: center;
+}
+@media screen and (min-height: 0px) and (max-height: 799px){
+.main_banner {
+	margin: -2% 0px;
+}
+}
+@media screen and (min-height: 800px) and (max-height: 899px){
+.main_banner {
+	padding: 5% 0px;
+}
+}
+@media screen and (min-height: 900px) and (max-height: 999px){
+.main_banner {
+	padding: 10% 0px;
+}
+}
+@media screen and (min-height: 1000px) and (max-height: 1099px){
+.main_banner {
+	padding: 15% 0px;
+}
+}
+@media screen and (min-height: 1100px) and (max-height: 1199px){
+.main_banner {
+	padding: 20% 0px;
+}
+}
+@media screen and (min-height: 1200px) and (max-height: 1299px){
+.main_banner {
+	padding: 25% 0px;
+}
+}
+@media screen and (min-height: 1300px) and (max-height: 1399px){
+.main_banner {
+	padding: 30% 0px;
+}
+}
+@media screen and (min-height: 1400px) and (max-height: 1499px){
+.main_banner {
+	padding: 35% 0px;
+}
+}
+@media screen and (min-height: 1500px) and (max-height: 1599px){
+.main_banner {
+	padding: 40% 0px;
+}
+}
+@media screen and (min-height: 1600px) and (max-height: 1699px){
+.main_banner {
+	padding: 45% 0px;
+}
+}
+@media screen and (min-height: 1700px) and (max-height: 1799px){
+.main_banner {
+	padding: 50% 0px;
+}
+}
+@media screen and (min-height: 1800px) and (max-height: 1899px){
+.main_banner {
+	padding: 55% 0px;
+}
+}
+@media screen and (min-height: 1900px) and (max-height: 1999px){
+.main_banner {
+	padding: 60% 0px;
+}
+}
+@media screen and (min-height: 2000px) and (max-height: 2099px){
+.main_banner {
+	padding: 65% 0px;
+}
+}
+@media screen and (min-height: 2100px) and (max-height: 2199px){
+.main_banner {
+	padding: 70% 0px;
+}
+}
+@media screen and (min-height: 2200px) and (max-height: 2299px){
+.main_banner {
+	padding: 75% 0px;
+}
+}
+@media screen and (min-height: 2300px) and (max-height: 2399px){
+.main_banner {
+	padding: 80% 0px;
+}
+}
+@media screen and (min-height: 2400px) and (max-height: 2499px){
+.main_banner {
+	padding: 85% 0px;
+}
+}
+@media screen and (min-height: 2500px) and (max-height: 2599px){
+.main_banner {
+	padding: 90% 0px;
+}
+}
+@media screen and (min-height: 2600px) and (max-height: 2699px){
+.main_banner {
+	padding: 95% 0px;
+}
+}

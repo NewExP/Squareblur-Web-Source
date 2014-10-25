@@ -1,7 +1,8 @@
 body {
 	margin: 0px;
-	font-family: 'Nanum Gothic';
-	font-size: 13px;
+	font-family: 'Yoon Gothic', 'Nanum Gothic', '나눔고딕';
+	font-weight: 400;
+	font-size: 13pt;
 	background-color: #ffffff;
 	color: #424242;
 	overflow-y: scroll;
@@ -19,42 +20,51 @@ a:active {
 img {
 max-width: 100%;
 }
+.container {
+}
 .warn {
 	display: none;
 }
 .thumbnail {
-	display: none;
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
 }
 .navbar {
 	z-index: 1;
 	top: 0px;
 	left: 0px;
 	width: 100%;
-	background: #ab11de url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzExMzM0NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzExMzM0NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzExMjIzMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxMTIyMzMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+');
+	background: #777777;
 }
 .nav {
 	position: relative;
 	margin: 0px auto;
-	font-size: 20px;
+	font-size: 32px;
 }
 .logo {
 	border-style: hidden;
 	height: 32px;
 	cursor: pointer;
 	vertical-align: middle;
-	padding: 4px 10px 4px 0px;
+	padding: 4px 20px 4px 0px;
 }
 .menu {
-	font-size: 16px;
+	font-size: 22px;
 	cursor: pointer;
 }
 .document {
 	position: relative;
 	z-index: 0;
+	min-height: 500px;
 }
-.pc {
-	display: none;
-}
-.mobile {
-	display: none;
+.footer {
+	position: absolute;
+	background-color: #444444;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 200;
+	width: 100%;
+	text-align: center;
+	padding: 15px 0px 16px;
 }

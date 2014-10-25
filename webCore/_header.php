@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <head>
 	<meta charset="utf-8" />
-	<meta name="title" content="스퀘어블러." />
-	<meta name="og:title" content="스퀘어블러." />
 	<meta name="description" content="새로운 경험, 스퀘어블러." />
-	<meta name="og:description" content="새로운 경험, 스퀘어블러." />
-	<meta name="og:url" content="http://www.squareblur.net/" />
-	<meta name="og:image" content="http://www.squareblur.net/webCore/images/thumbnail.png" />
 	<meta name="author" content="Squareblur">
 	<meta name="keywords" content="Squareblur, 스퀘어블러, Square, blur, 스퀘어, 블러">
 	<meta name="google" content="notranslate" />
@@ -37,7 +32,7 @@
 		<div class="warn_forbidden-old-ie">
 		</div>
 		<div class="warn_width-limit">
-			<img src="/webCore/images/warn.svg" /><br />
+			<img src="/webCore/images/warn.svg" alt="경고" /><br />
 			본 사이트는 <b>가로 300px</b> 이상의<br />
 			해상도에서 이용 가능합니다. :(<br />
 			<br />
@@ -51,21 +46,21 @@
 		<div class="navbar">
 			<div class="nav">
 				<img src="/webCore/images/logo.png" alt="Squareblur" class="logo" onclick="location.href='/';" />
-				<span class="menu" onclick="location.href='/';">소개</span>
-				<span class="menu" onclick="location.href='/';">프로젝트</span>
-				<span class="menu" onclick="location.href='/';">모집</span>
-				<span class="menu" onclick="location.href='/';">문의</span>
-				<span class="menu" onclick="location.href='/';">블로그</span>
+				<span class="menu introduce" onclick="location.href='/';">소개</span>
+				<span class="menu project" onclick="location.href='/';">프로젝트</span>
+				<span class="menu recruitment" onclick="location.href='/';">모집</span>
+				<span class="menu contactus" onclick="location.href='/';">문의</span>
+				<span class="menu blog" onclick="location.href='/';">블로그</span>
 				<div class="mobilemenu">
 					<img src="/webCore/images/menubtn.png" alt="메뉴" class="mobilemenubtn" id="menubtn" />
 				</div>
 			</div>
 		</div>
 		<div class="mobilemenupanel" id="mobilemenupanel">
-				<div class="menu" onclick="location.href='/';">소개</div>
-				<div class="menu" onclick="location.href='/';">프로젝트</div>
-				<div class="menu" onclick="location.href='/';">모집</div>
-				<div class="menu" onclick="location.href='/';">문의</div>
-				<div class="menu" onclick="location.href='/';">블로그</div>
+			<div class="menu introduce" onclick="location.href='/';">소개</div>
+			<div class="menu project" onclick="location.href='/';">프로젝트</div>
+			<div class="menu recruitment" onclick="location.href='/';">모집</div>
+			<div class="menu contactus" onclick="location.href='/';">문의</div>
+			<div class="menu blog" onclick="location.href='/';">블로그</div>
 		</div>
 		<div class="document">
